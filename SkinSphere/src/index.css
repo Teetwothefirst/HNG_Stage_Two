@@ -99,6 +99,18 @@ img{
   border-radius: 24px;
   opacity: 0px;
 }
+.btn-unblue{
+  width: Hug (106px)px;
+  height: Hug (51px)px;
+  padding: 12px;
+  gap: 8px;
+  border-radius: 24px;
+  opacity: 0px;
+  background: #FAF6F6;
+  border: 1px solid #69A7D0;
+
+
+}
 .input-container{
   width: 50%;
 }
@@ -108,4 +120,9 @@ img{
 
 .form-control{
   border-radius: 24px;
+}
+.page-navigation{
+  display: flex;
+  justify-content: space-evenly;
+  
 }

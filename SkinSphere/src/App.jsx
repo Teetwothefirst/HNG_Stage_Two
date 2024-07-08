@@ -57,7 +57,11 @@ function App() {
           </div>
           <div className="page">
             <div className='page-navigation'>
-              
+              <button className='btn-blue'>All</button>
+              <button className='btn-unblue'>Cleanser</button>
+              <button className='btn-unblue'>Serum</button>
+              <button className='btn-unblue'>Moisturizer</button>     
+              <button className='btn-unblue'>Face Oil</button>
             </div>
             <div className="page-content">
 
