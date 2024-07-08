@@ -50,11 +50,18 @@ function App() {
           <div>
           <img src={heroImg} alt="" />
           </div>
-          <div>
-
+          <div className='d-flex justify-content-center py-5'>
+            <div className='input-container'>
+            <input type="text" name="" id="" className='form-control' />
+            </div>
           </div>
-          <div className="page-content">
-            
+          <div className="page">
+            <div className='page-navigation'>
+              
+            </div>
+            <div className="page-content">
+
+            </div>
           </div>
         </main>
         <footer>

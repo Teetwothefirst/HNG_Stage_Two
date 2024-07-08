@@ -98,5 +98,14 @@ img{
   gap: 10px;
   border-radius: 24px;
   opacity: 0px;
+}
+.input-container{
+  width: 50%;
+}
+.input-container > input{
+  width: 100%;
+}
 
+.form-control{
+  border-radius: 24px;
 }
