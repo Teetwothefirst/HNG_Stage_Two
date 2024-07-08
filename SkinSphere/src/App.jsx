@@ -33,22 +33,34 @@ function App() {
     //   </p>
     // </>
     <>
-      <div>
+      <div className='container'>
         <header>
           <nav>
             <div><img src={Logo} alt="" /></div>
-            <div className=''>
-              <a href="" className="link-dark">Store</a>
-              <a href="" className="link-dark">About</a>
-              <a href="" className="link-dark">Contact</a>
+            <div className='nav-links'>
+              <a href="#Store" className="link-dark">Store</a>
+              <a href="#About" className="link-dark">About</a>
+              <a href="#Contact" className="link-dark">Contact</a>
 
             </div>
             <div><button className='btn-blue'>Order Now</button></div>
           </nav>
-          <main>
-            <img src={heroImg} alt="" />
-          </main>
         </header>
+        <main>
+          <div>
+          <img src={heroImg} alt="" />
+          </div>
+          <div>
+
+          </div>
+          <div className="page-content">
+            
+          </div>
+        </main>
+        <footer>
+
+        </footer>
+        
         <main>
 
         </main>

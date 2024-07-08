@@ -69,11 +69,17 @@ button:focus-visible {
 
 /* ===================================================Adetomiwa Styling======================================== */
 header{
-  min-height: 2rem;
+  /* margin-bottom: 2rem; */
+  padding: 1rem
+}
+.nav-links{
+  display: flex;
+  gap:2.4rem;
 }
 nav{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  align-items: center;
 }
 .link-dark{
   text-decoration: none;
