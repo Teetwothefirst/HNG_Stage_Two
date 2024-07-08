@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import heroImg from './assets/heroImg.png'
+import Logo from './assets/Logo.png'
 
 
 function App() {
@@ -35,7 +36,7 @@ function App() {
       <div>
         <header>
           <nav>
-            <div><img src="" alt="" /></div>
+            <div><img src={Logo} alt="" /></div>
             <div className=''>
               <a href="" className="link-dark">Store</a>
               <a href="" className="link-dark">About</a>
