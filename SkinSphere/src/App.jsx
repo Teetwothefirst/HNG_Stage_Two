@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import heroImg from './assets/heroImg.png'
 import Logo from './assets/Logo.png'
-
+import AllNew from './AllNew.jsx'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -32,6 +32,7 @@ function App() {
     //     Click on the Vite and React logos to learn more
     //   </p>
     // </>
+    
     <>
       <div className='container'>
         <header>
@@ -64,7 +65,7 @@ function App() {
               <button className='btn-unblue'>Face Oil</button>
             </div>
             <div className="page-content">
-
+                <AllNew/>
             </div>
           </div>
         </main>
