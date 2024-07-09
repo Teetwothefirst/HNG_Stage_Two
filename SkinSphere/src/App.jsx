@@ -70,7 +70,9 @@ function App() {
           </div>
         </main>
         <footer>
-
+          <div></div>
+          <div></div>
+          <div></div>
         </footer>
         
         <main>

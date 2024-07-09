@@ -91,21 +91,21 @@ img{
 .btn-blue{
   color: white;
   background-color: #82B6D8;
-  width: Hug (147px)px;
-  height: Hug (47px)px;
+  /* width: Hug (147px)px;
+  height: Hug (47px)px; */
   border: none;
-  padding: 12px 24px 12px 24px;
+  padding: 12px 20px 12px 20px;
   gap: 10px;
   border-radius: 24px;
-  opacity: 0px;
+  /* opacity: 0px; */
 }
 .btn-unblue{
-  width: Hug (106px)px;
-  height: Hug (51px)px;
+  /* width: Hug (106px)px;
+  height: Hug (51px)px; */
   padding: 12px;
   gap: 8px;
   border-radius: 24px;
-  opacity: 0px;
+  /* opacity: 0px; */
   background: #FAF6F6;
   border: 1px solid #69A7D0;
 
@@ -125,4 +125,13 @@ img{
   display: flex;
   justify-content: space-evenly;
   
+}
+@media screen and (max-width: 576px) {
+  .page-navigation{
+    overflow: scroll;
+    gap : 2em;
+  }
+  .page-navigation > button{
+    padding: 5px 15px 5px 15px ;
+  }
 }
