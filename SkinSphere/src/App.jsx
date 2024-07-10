@@ -66,14 +66,23 @@ function App() {
       <div className='container'>
         <header>
           <nav>
-            <div><img src={Logo} alt="" /></div>
+            <div className='Toplogo'><img src={Logo} alt="" /></div>
             <div className='nav-links'>
               <a href="#Store" className="link-dark">Store</a>
               <a href="#About" className="link-dark">About</a>
-              <a href="#Contact" className="link-dark">Contact</a>
-
+              <a href="#Contact" className="link-dark">Contact</a>  
             </div>
-            <div><button className='btn-blue'>Order Now</button></div>
+            <div className='orderNow'><button className='btn-blue'>Order Now</button></div>
+            <div>
+            <div className="dropdown">
+              <button className="dropbtn"><i className="bi bi-view-stacked"></i></button>
+              <div className="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </div>
+            </div>
           </nav>
         </header>
 
@@ -151,7 +160,7 @@ function App() {
               <strong>#55,000</strong>
               </div>
               <div className='p-3'>
-                <div><span>1</span> <button className='btn-count' onClick={addMore()}><i className="bi bi-plus-circle"></i></button></div>
+                <div><span>1</span> <button className='btn-count' onClick={addMore()}><i className="bi bi-plus"></i></button></div>
                 <div className='d-flex justify-content-evenly'><button className='btn-unblue p-1'>Add to Cart</button> <button className='btn-blue'>Buy Now</button></div>
               </div>
             </div>
