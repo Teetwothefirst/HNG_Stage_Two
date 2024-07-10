@@ -7,7 +7,7 @@ function AllNew(){
    return(
     <>
         {/* <div className='row'> */}
-        {/* <h3>Most Bought Products</h3> */}
+        <h3>Most Bought Products</h3>
         <div className="card col-6 col-lg-3 border-0 shadow p-0">
             <div className="card-body p-0">
                 <img src={ShopItems} className="card-ing-top" alt="" />
@@ -20,7 +20,7 @@ function AllNew(){
                         </div>
                     </div>
                     <div>
-                    <button className="btn-blue" id='cart'><i class="bi bi-cart"></i></button>
+                    <button className="btn-blue" id='cart'><i className="bi bi-cart"></i></button>
                 </div>             
                 </div>
                 

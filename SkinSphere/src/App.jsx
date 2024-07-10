@@ -76,6 +76,8 @@ function App() {
             <div><button className='btn-blue'>Order Now</button></div>
           </nav>
         </header>
+
+        {/* Main */}
         <main>
           <div>
           <img src={heroImg} alt="" />
@@ -100,6 +102,8 @@ function App() {
             </div>
           </div>
         </main>
+
+        {/* Footer */}
         <footer className='mt-5'>
           <div className='footer-img py-3'>
             <span className='skinsphere'></span>
@@ -140,7 +144,7 @@ function App() {
               <strong>#55,000</strong>
               </div>
               <div className='p-3'>
-                <div><span>1</span> <button className='btn-count' onClick={addMore()}><i class="bi bi-plus-circle"></i></button></div>
+                <div><span>1</span> <button className='btn-count' onClick={addMore()}><i className="bi bi-plus-circle"></i></button></div>
                 <div className='d-flex justify-content-evenly'><button className='btn-unblue p-1'>Add to Cart</button> <button className='btn-blue'>Buy Now</button></div>
               </div>
             </div>
