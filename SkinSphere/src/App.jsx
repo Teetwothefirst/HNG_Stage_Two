@@ -95,7 +95,14 @@ function App() {
               <button className='btn-unblue'>Moisturizer</button>     
               <button className='btn-unblue'>Face Oil</button>
             </div>
+            <h5 className='mostBought'>Most Bought</h5>
             <div className="page-content row justify-content-between mt-5">
+                <AllNew/>
+                <AllNew/>
+                <AllNew/>
+                <AllNew/>
+                <AllNew/>
+                <AllNew/>
                 <AllNew/>
                 <AllNew/>
                 <AllNew/>

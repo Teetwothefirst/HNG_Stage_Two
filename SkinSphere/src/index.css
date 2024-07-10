@@ -144,6 +144,9 @@ font-size: 10px;
 font-weight: bold;
 border-top: 3px solid white;
 }
+.mostBought{
+  text-align: left;
+}
 @media screen and (max-width: 576px) {
   
   
