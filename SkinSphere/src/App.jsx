@@ -77,9 +77,9 @@ function App() {
             <div className="dropdown">
               <button className="dropbtn"><i className="bi bi-view-stacked"></i></button>
               <div className="dropdown-content">
-                <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
+                <a href="#">Store</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
               </div>
             </div>
             </div>
@@ -125,13 +125,13 @@ function App() {
             <span className='skinsphere'></span>
             <img src={Skinsphere} alt="" id="imgSkinSphere"/>
           </div>
-          <div className='d-flex justify-content-evenly'>
+          <div className='d-lg-flex justify-content-evenly block-sm'>
             <div>
               <p><a href="#" className='link-dark'>Privacy Policy</a></p>
               <p><a href="#" className='link-dark'>Terms and Conditions</a></p>
               <p><a href="#" className='link-dark'>About</a></p>
             </div>
-            <div className='d-flex gap-3'>
+            <div className='d-lg-flex gap-3'>
               <span><i className="bi bi-twitter fs-3"></i></span>
               <span><i className="bi bi-facebook fs-3"></i></span>
               <span><i className="bi bi-instagram fs-3"></i></span>
