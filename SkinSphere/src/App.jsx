@@ -131,7 +131,7 @@ function App() {
               <p><a href="#" className='link-dark'>Terms and Conditions</a></p>
               <p><a href="#" className='link-dark'>About</a></p>
             </div>
-            <div className='d-lg-flex gap-3'>
+            <div className='d-lg-flex gap-3 socials'>
               <span><i className="bi bi-twitter fs-3"></i></span>
               <span><i className="bi bi-facebook fs-3"></i></span>
               <span><i className="bi bi-instagram fs-3"></i></span>
