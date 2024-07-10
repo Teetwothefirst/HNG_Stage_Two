@@ -8,7 +8,7 @@ function AllNew(){
     <>
         {/* <div className='row'> */}
         {/* <h3>Most Bought Products</h3> */}
-        <div className="card col-6 col-lg-3 border-0 shadow p-0">
+        <div className="card col-6 col-lg-3 border-0 shadow p-0 mb-3">
             <div className="card-body p-0">
                 <img src={ShopItems} className="card-ing-top" alt="" />
                 
