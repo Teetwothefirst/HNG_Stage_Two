@@ -7,6 +7,7 @@ import Logo from './assets/Logo.png'
 import AllNew from './AllNew.jsx'
 import Skinsphere from './assets/Skinsphere.png'
 import ShopItems from './assets/ShopItems.png'
+import ProductDetails from './ProductDetails.jsx'
 
 
 function App() {
@@ -172,6 +173,7 @@ function App() {
           </div>
         </main>
       </div>
+      <ProductDetails />
     </>
   )
 }
