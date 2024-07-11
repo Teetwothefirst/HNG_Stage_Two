@@ -16,7 +16,7 @@ function AllNew(){
                     <div>
                         <h6 className="card-title">La Rosary Sun Screen Set</h6>
                         <div className='d-flex justify-content-start'>
-                        <small>#52,000</small>
+                        <small> ₦52,000</small>
                         </div>
                     </div>
                     <div>

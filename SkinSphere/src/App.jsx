@@ -149,9 +149,11 @@ function App() {
           </div>
         </footer>
         
+
         <main>
+          <div></div>
           <div className='cart'><h3>Cart</h3></div>
-          <div className='d-flex justify-content-around'>
+          <div className='d-lg-flex justify-content-around'>
             <img src={ShopItems} alt="" />
             <div>
               <div className=''>
@@ -164,6 +166,9 @@ function App() {
                 <div className='d-flex justify-content-evenly'><button className='btn-unblue p-1'>Add to Cart</button> <button className='btn-blue'>Buy Now</button></div>
               </div>
             </div>
+          </div>
+          <div>
+            <div className="continue-shopping"><a href="#"><i class="bi bi-arrow-left"></i> Continue Shopping</a></div>
           </div>
         </main>
       </div>

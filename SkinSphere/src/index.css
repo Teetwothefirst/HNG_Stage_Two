@@ -214,6 +214,9 @@ display: none;
     justify-content: center;
     gap: 10px;
   }
+  .input-container > input{
+    width: 100%;
+  }
 }
 
 /*  return (
