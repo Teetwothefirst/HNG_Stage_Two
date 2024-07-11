@@ -168,7 +168,7 @@ function App() {
             </div>
           </div>
           <div>
-            <div className="continue-shopping"><a href="#"><i class="bi bi-arrow-left"></i> Continue Shopping</a></div>
+            <div className="continue-shopping"><a href="#"><i className="bi bi-arrow-left"></i> Continue Shopping</a></div>
           </div>
         </main>
       </div>
