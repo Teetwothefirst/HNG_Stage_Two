@@ -8,6 +8,7 @@ import AllNew from './AllNew.jsx'
 import Skinsphere from './assets/Skinsphere.png'
 import ProductDetails from './ProductDetails.jsx'
 import Cleanser from './Cleanser.jsx'
+import { Outlet, Link } from 'react-router-dom'
 
 
 function App() {
@@ -97,24 +98,25 @@ function App() {
           </div>
           <div className="page">
             <div className='page-navigation'>
-              <button className='btn-blue'>All</button>
-              <button className='btn-unblue'>Cleanser</button>
-              <button className='btn-unblue'>Serum</button>
-              <button className='btn-unblue'>Moisturizer</button>     
-              <button className='btn-unblue'>Face Oil</button>
+              <Link to={`/`} className='btn-blue'>All</Link>
+              <Link to={`/Cleanser`} className='btn-unblue'>Cleanser</Link>
+              <Link to={`/Serum`} className='btn-unblue'>Serum</Link>
+              <Link to={`/Moisturizer`} className='btn-unblue'>Moisturizer</Link>     
+              <Link to={`/FaceOil`} className='btn-unblue'>Face Oil</Link>
             </div>
             <h5 className='mostBought'>Most Bought</h5>
             <div className="page-content row justify-content-between gap-2 mt-5">
+                <Outlet/>
+                {/* <AllNew/>
                 <AllNew/>
                 <AllNew/>
                 <AllNew/>
                 <AllNew/>
                 <AllNew/>
                 <AllNew/>
-                <AllNew/>
-                <AllNew/>
-                {/* <AllNew/> */}
-                <Cleanser />
+                <AllNew/> */}
+                {/* <AllNew/>
+                <Cleanser /> */}
             </div>
           </div>
         </main>
