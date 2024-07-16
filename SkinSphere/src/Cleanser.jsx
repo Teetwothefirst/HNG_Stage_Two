@@ -1,16 +1,10 @@
-import './index.css'
-import ShopItems from './assets/ShopItems.png'
-
-function AllNew(){
-
-    // const 
-   return(
-    <>
-        {/* <div className='row'> */}
-        {/* <h3>Most Bought Products</h3> */}
-        <div className="card col-12 col-md-6 col-lg-3 border-0 shadow p-0 mb-3">
+import CleanserImg from './assets/CleanserImg.png'
+function Cleanser(){
+    return(
+        <>
+            <div className="card col-12 col-md-6 col-lg-3 border-0 shadow p-0 mb-3">
             <div className="card-body p-0">
-                <img src={ShopItems} className="card-ing-top" alt="" />
+                <img src={CleanserImg} className="card-ing-top" alt="" />
                 
                 <div className='d-flex justify-content-between p-3'>
                     <div>
@@ -26,10 +20,8 @@ function AllNew(){
                 
             </div>
         </div>
-        {/* </div> */}
-        
-    </>
-   ) 
+        </>
+    )
 }
 
-export default AllNew;
+export default Cleanser;
